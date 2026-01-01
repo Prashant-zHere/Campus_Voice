@@ -6,7 +6,7 @@ CampusVoice is a comprehensive web-based complaint management system designed to
 
 ### For Students
 - **User Registration & Authentication**: Secure signup and login system with email verification
-- **Complaint Submission**: Submit detailed complaints with file attachments
+- **Complaint Submission**: Submit detailed complaints with file attachments (IMG, PDF, DOCX, etc Upto 5MB)
 - **Suggestion System**: Share suggestions for campus improvements
 - **Real-time Tracking**: Monitor complaint status and progress
 - **Dashboard**: Personal dashboard to view all submitted complaints
