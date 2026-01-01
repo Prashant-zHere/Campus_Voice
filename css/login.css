@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background: #f0f4f8;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #64748b;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Left Section */
+.left {
+  background-color: #2563ea;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login_img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Right Section */
+.right {
+  width: 50vw;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.input, .i {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input:focus, .i:focus {
+  border-color: #2563ea;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 234, 0.1);
+}
+
+.login, .adminlogin, .studentlogin {
+  width: 100%;
+  padding: 1rem;
+  background: #2563ea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.login:hover, .adminlogin:hover, .studentlogin:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.anchor {
+  text-align: center;
+  margin: 1.5rem 0;
+  color: #64748b;
+}
+
+.anchor a {
+  color: #2563ea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.anchor a:hover {
+  text-decoration: underline;
+}
+
+select.class {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  body {
+      flex-direction: column;
+      min-height: auto;
+  }
+
+  .left, .right {
+      width: 100%;
+      height: auto;
+      padding: 2rem 1.5rem;
+  }
+
+  .left {
+      border-radius: 0 0 20px 20px;
+      padding: 1.5rem;
+  }
+
+  .login_img {
+      max-height: 300px;
+      width: auto;
+  }
+
+  h1 {
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  p {
+      text-align: center;
+      font-size: 1rem;
+  }
+
+  form {
+      padding-left: 0;
+  }
+
+  .input, .i, select.class {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+  }
+
+  .login, .adminlogin, .studentlogin {
+      font-size: 1rem;
+      padding: 0.8rem;
+  }
+
+  .anchor {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .left {
+      padding: 1rem;
+  }
+
+  .right {
+      padding: 1.5rem;
+  }
+
+  h1 {
+      font-size: 1.75rem;
+  }
+
+  .login_img {
+      max-height: 250px;
+  }
+}
+
+

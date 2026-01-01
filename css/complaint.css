@@ -1,0 +1,147 @@
+*{
+    padding:0px;
+    /* border:0px; */
+    margin:0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f2;
+    font-size: 1.25rem;
+}
+/* 
+.heading, .form{
+
+} */
+
+.form{
+    background-color: #ffffff;
+    height:auto;
+    width:50%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    overflow: scroll;
+}
+/* 
+label{
+    color:#3b404b;
+} */
+
+textarea::placeholder ,input::placeholder{
+    color:#a1a8ae;
+    padding: 2px;
+}
+
+.subject,.description,#category,.reset,.submit{
+    border-color: #a9a49e;
+    border-top: 5px;
+    border-radius: 10px;
+    border-left: 2px;
+    font-size: 20px;
+    width:100%;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+input{
+    height:50px;
+}
+
+textarea{
+    height: 250px;
+}
+
+.reset ,.submit{
+    height: 50px;
+    width:40%;
+    border : 0px;
+    margin:10px;
+}
+
+.reset{
+    margin-left: 20px;
+}
+.submit{
+    background-color: #2463eb;
+}
+
+select{
+    height:50px;
+}
+
+/* .attachment{
+    display: none;
+    border-style: dashed;
+    border-color: #a9a49e;
+    width: 100%;
+    border-radius: 10px;
+} */
+
+.custom-file-upload {
+    border-style: dashed;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 92%;
+    justify-items: center;
+}
+
+img{
+    height:30px;
+    width:30px;
+}
+
+p{
+    font-size: 15px;
+}
+/* 
+.addFile{
+    position: absolute;
+    top: 607px;
+    left: 919px;
+    border:none;
+    border-radius: 10px;
+    height : 80px;
+    width :127px;
+    font-size: 20px;
+}
+
+.addFile:hover,.btn:hover{
+    cursor: pointer;
+    border:solid 1px;
+} */
+
+
+@media (max-width: 767px){
+
+    .form{
+        background-color: #ffffff;
+        height:auto;
+        width:100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 10px;
+        margin-top: 10px;
+        overflow: scroll;
+    }
+
+    .reset ,.submit{
+        height: 50px;
+        width:90%;
+        margin: 10px;
+    }
+    
+    .custom-file-upload {
+        border-style: dashed;
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 90%;
+        justify-items: center;
+    }
+}

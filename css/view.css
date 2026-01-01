@@ -1,0 +1,362 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #e8eaec;
+}
+
+.header {
+    /* width:100vw; */
+    height: 50px;
+    border-bottom: 2px solid rgba(160, 157, 157, 0.959);
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    color: #4a4c52;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 15px 20px;
+    height: auto;
+    /* width:100vw; */
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.back {
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: 3px solid #e8eaec;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* form {
+    white-space: nowrap; /* Prevents wrapping */
+/* } */
+form {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.id {
+    height: 40px;
+    width: 90%;
+    cursor: pointer;
+    border: 3px solid #e8eaec;
+    display: inline;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 0px;
+}
+
+/* 
+.id::placeholder{
+    padding-left:10px;
+    font-size: 15px;
+} */
+
+.searchbtn {
+    height: 45px;
+    width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: 3px solid #e8eaec;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 0px;
+}
+
+/* .filediv{
+    height:auto;
+    width:auto;
+    margin-right: 10px;
+    background-color: red;
+} */
+
+
+.remarks {
+    background-color: #e8eaec;
+    width: 50%;
+    border-radius: 5px;
+    min-height: 100px;
+    height: auto;
+}
+
+.msg {
+    height: 50px;
+    padding: 5px;
+    width: 70%;
+    font-size: 18px;
+    padding-left: 10px;
+    border: solid 2px #a8acbd;
+    display: inline-block;
+    resize: none;
+    overflow-y: scroll;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sendbtn {
+    height: 64px;
+    padding: 5px;
+    width: 70px;
+    font-size: 18px;
+    border: solid 2px #a8acbd;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.addfile {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px;
+    /* width : 70px; */
+    border: solid 2px #a8acbd;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.date {
+    display: flex;
+    justify-self: center;
+    font-size: 16px;
+    background-color: #aeb1bc;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sender,
+.senderFile {
+    display: flex;
+    justify-self: flex-end;
+    /* float: right; */
+    /* text-align: right; */
+    background-color: #A3D5FF;
+    height: fit-content;
+    width: fit-content;
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 20px;
+    ;
+}
+
+.receiver,
+.receiverFile {
+    display: block;
+    background-color: #75BFEC;
+    height: fit-content;
+    width: fit-content;
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 20px;
+    ;
+}
+
+.senderFile {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Filemenu {
+    display: inline-block;
+    /* float: right; */
+    border: none;
+    background-color: #74b8f0;
+    height: fit-content;
+}
+
+.receiverFile {
+    height: 30px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.fileanchor {
+    text-decoration: none;
+    text-align: center;
+}
+
+.adminControl {
+    height: 100px;
+    width: 30%;
+    border: 2px solid black;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 10px;
+}
+
+
+.labelAdmin {
+    font-size: 18px;
+    margin: 5px 10px 5px 0px;
+}
+
+.adminSelect {
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+
+/* mobile view */
+@media (max-width: 767px) {
+    
+    .header {
+        width:100%;
+        height: 100px;
+        border-bottom: 2px solid rgba(160, 157, 157, 0.959);
+        display: flex;
+        align-content: center;
+        padding-left: 0px;
+        padding-top: 15px;
+        background-color: #ffffff;
+        color: black;
+    }
+    .main {
+        background-color: #ffffff;
+        margin: 15px 0px;
+        height: auto;
+        width:100%;
+        border-radius: 10px;
+    }
+
+    .back {
+        height: 38px;
+        width: 33px;
+        margin-left: -15px;
+        margin-top: -1px;
+    }
+  
+    .id{
+        height: 40px;
+    width: 62%;
+    cursor: pointer;
+    border: 3px solid #e8eaec;
+    display: inline;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 0px;
+    }
+
+    .searchbtn {
+        height: 43px;
+        /* width: 80px; */
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        border: 3px solid #e8eaec;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -4px;
+        margin-top: 0px;
+    }
+    /* .back {
+        height: 20px;
+        width: 20px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+        border: 3px solid #e8eaec;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-bottom:235px;
+    } */
+/* 
+    .id {
+        height: 40px;
+        width: 90%;
+        cursor: pointer;
+        border: 3px solid #e8eaec;
+        display: inline;
+        padding-left: 0px;
+       border-radius:10px;
+        font-size: 15px;
+        margin-right: 0px;
+        margin-top:50px
+    }
+     */
+    /* .searchbtn {
+        height: 45px;
+        width: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        border: 3px solid #e8eaec;
+        border-radius:10px;
+        margin-top: 13px;
+        background-color:#74b8f0;
+    } */
+
+    /* .msg {
+        height: 50px;
+        padding: 5px;
+        width: 100%;
+        font-size: 18px;
+        padding-left: 10px;
+        border: solid 2px #a8acbd;
+        display: inline-block;
+        
+    } */
+    
+    /* .sendbtn {
+        height: 64px;
+        padding: 5px;
+        width: 70px;
+        font-size: 18px;
+        border: solid 2px #a8acbd;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    
+    } */
+    
+    .adminControl {
+        height: 100px;
+        width: 85%;
+        border: 2px solid black;
+        /* display: flex; */
+        /* align-items: center; */
+        padding: 10px;
+    }
+    
+    
+    .labelAdmin {
+        font-size: 18px;
+        margin: 5px 10px 5px 0px;
+    }
+    
+    .adminSelect {
+        height: 30px;
+        width: 190px;
+        margin-top:0px;
+    }
+}
+
+
+/* add */

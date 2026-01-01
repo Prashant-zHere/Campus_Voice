@@ -1,0 +1,413 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+.header{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 10px;
+    width:100%;
+    height:80px;
+    /* background-color: aqua; */
+    border-bottom: 2px solid rgb(183, 179, 179);
+}
+
+.logo{
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.logo_area{
+    height:90%;
+    width:280px;
+    border-right:2px solid rgb(183, 179, 179);
+   display: inline-block;
+}
+
+.header_area{
+    display: inline-block;
+    margin-left:15px;
+    width: 80%;
+}
+
+.logout{
+    font-size: 18px;
+    float: right;
+    border: none;
+    background-color: #2463eb;
+    height: 50px;
+    width: 120px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+.status{
+    /* background-color: #2463eb; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status0{
+    /* padding-top: 3px; */
+    height: 150px;
+    width: 250px;
+    border: 2px solid rgb(183, 179, 179);
+    margin-left: 50px;
+    border-radius: 10px;
+    /* display: flex; */
+    /* font: 700; */
+}
+
+.statusImg{
+    float: right;
+    margin-left: 65px;
+    /* justify-self: flex-end; */
+    height: 40px;
+    width: 40px;
+
+}
+
+.statusHead{
+    /* float: left; */
+    font-size: 18px;
+    margin-left:10px;
+    margin-top: 10px;
+    height: auto;
+    width: fit-content;
+    /* display: inline-block;1 */
+    display: inline-block;
+}
+
+.totalcnt{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.sentence{
+    margin-left: 10px;
+    font-size: 16px;
+    color:rgb(165, 162, 162);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.serchform{
+    display: flex;
+    align-content: center;
+    width:100%;
+    margin-top: 10px;
+}
+
+.search{
+    height:50px;
+    width: 96%;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(165, 162, 162);
+    display: flex;
+    align-content: center;
+    /* justify-content: center; */
+}
+
+.searchbtn{
+    height: 35px;
+    width: 40px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.inputsearch{
+    border: none;
+    padding: 0px 0px 0px 10px;
+    height: 30px;
+    width: 91%;
+    border-radius: 10px;
+    font-size: 18px; 
+    margin-left: 10px;   
+    margin-top: 0px;
+}
+
+.inputsearch:focus{
+    outline: none;
+    border-bottom: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 35px;
+}
+
+.sort{
+    width:130px;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.category{
+    width:150px;
+}
+
+.complaintList{
+    width: 100%;
+    min-height: 100px;
+    border: none;
+    /* background-color: aqua; */
+    margin-top: 10px;
+}
+
+table{
+    margin: 5px 0px 0px 30px;
+    width: 96%;
+}
+
+th{
+    background-color: rgb(238, 233, 233);
+    font-size: 18px;
+    height: 40px;
+    /* width: 120px; */
+}
+
+td{
+    font-size: 18px;
+    height: 40px;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+th,td{
+    border-bottom:2px solid rgb(226, 225, 225) ;
+}
+
+.cmp_idtable{
+    /* border-left: 2px solid rgb(226, 225, 225); */
+    border:none;
+    color: #2463eb;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.cmp_idtable:hover{
+    font-size: 20px;
+    transition: font-size 0.2s ease;
+}
+
+.tableStatus{
+    padding-left: 25px;
+}
+
+.tableStatusp{
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    padding-top: 5px;
+}
+
+.tableSub{
+    text-align:left;
+    padding-left:10px;
+    overflow-y: auto;
+    border-right: 2px solid rgb(226, 225, 225);
+}
+
+.searchByDate{
+    height:95%;
+    width: 400px;
+    border: 2px solid rgb(202, 199, 199);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+label{
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+}
+
+.date{
+    height: 30px;
+    width: 120px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: -10px;
+        margin:10px;
+        flex-direction: column;
+    }
+
+    .logo_area {
+        width: 90%;
+        border-right: none;
+        border-bottom: 2px solid rgb(183, 179, 179);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .header_area {
+        width: 80%;
+        margin-left: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logout {
+        float: none;
+        margin: 15px auto;
+        width: 80%;
+    }
+
+    .status {
+        flex-direction: column;
+        height: auto;
+        padding: -30px;
+       
+    }
+
+    .status0 {
+        width: 80%;
+        margin: 10px 0;
+        height: auto;
+        padding: 15px;
+    }
+
+    .statusImg {
+        margin-left: 0;
+        float: right;
+        height: 30px;
+        width: 30px;
+    }
+
+    .totalcnt {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .sentence {
+        font-size: 14px;
+    }
+
+    .search {
+        flex-direction: column;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+        width: auto;
+    }
+
+    .inputsearch {
+        width: 100%;
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .sort, .category {
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px;
+    }
+
+    .searchByDate {
+        width: 90%;
+        flex-direction: column;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .date {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    table {
+        margin: 5px;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .cmp_idtable {
+        font-size: 14px;
+    }
+
+    .tableStatusp {
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_area h2 {
+        font-size: 1.2rem;
+    }
+
+    .statusHead {
+        font-size: 16px;
+    }
+
+    .totalcnt {
+        font-size: 24px;
+    }
+
+    .inputsearch {
+        font-size: 14px;
+    }
+
+    .searchByDate label {
+        font-size: 14px;
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.complaintList {
+    overflow-x: auto;
+}
+
+table {
+    min-width: 600px;
+}
+
+
+button, input, select {
+    min-height: 40px;
+    padding: 8px 12px;
+}
+
+.searchbtn {
+    padding: 5px;
+}
