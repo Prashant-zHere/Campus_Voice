@@ -1,12 +1,12 @@
 # CampusVoice - College Complaint Management System
 
-CampusVoice is a comprehensive web-based complaint management system designed to bridge the communication gap between students and college administrators. The platform enables students to submit, track, and manage their complaints while providing administrators with tools to efficiently handle and resolve issues.
+CampusVoice is a comprehensive web-based complaint and suggestion management system designed to bridge the communication gap between students and college administrators. The platform enables students to submit, track, and manage their complaints while providing administrators with tools to efficiently handle and resolve issues.
 
 ## 🚀 Features
 
 ### For Students
 - **User Registration & Authentication**: Secure signup and login system with email verification
-- **Complaint Submission**: Submit detailed complaints with file attachments (IMG, PDF, DOCX, etc Upto 5MB)
+- **Complaint Submission**: Submit detailed complaints/suggestions with file attachments (IMG, PDF, DOCX, etc Upto 5MB)
 - **Suggestion System**: Share suggestions for campus improvements
 - **Real-time Tracking**: Monitor complaint status and progress
 - **Dashboard**: Personal dashboard to view all submitted complaints
@@ -14,7 +14,7 @@ CampusVoice is a comprehensive web-based complaint management system designed to
 - **Secret Identity**: Identity of students is kept secret. Admin cannot see who the student is.
 
 ### For Administrators
-- **Admin Dashboard**: Comprehensive overview of all complaints and statistics
+- **Admin Dashboard**: Comprehensive overview of all complaints/suggestions and statistics
 - **Complaint Management**: Review, assign, and update complaint status
 - **Department-wise Access**: Role-based access control for different departments
 - **Communication Tools**: Add remarks and communicate with students
