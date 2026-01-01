@@ -1,4 +1,4 @@
-# CampusVoice - College Complaint/Suggestion Management System
+# CampusVoice - College Complaint and Suggestion Management System
 
 CampusVoice is a comprehensive web-based complaint and suggestion management system designed to bridge the communication gap between students and college administrators. The platform enables students to submit, track, and manage their complaints while providing administrators with tools to efficiently handle and resolve issues.
 
